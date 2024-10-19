@@ -1,0 +1,8 @@
+# 忽略所有 .csv 文件
+*.csv
+
+# 忽略 target 目录下的所有内容
+target/*
+
+# 但保留 target 目录下的 .jar 文件
+!target/*.jar
